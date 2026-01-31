@@ -216,3 +216,10 @@ No. of Ties = 607,532
 Avg Degree = 155.777
 Std Dev = 0.196
 
+Degree centrality was calculated on the weighted customer–customer co-purchase network. Degree values ranged from approximately 123 at the lower end to 170 at the upper end, with many nodes clustered near the maximum observed value. Customers in the highest degree tier (approximately the top 10%) exhibited degree values close to 170, indicating connections to a large number of other customers through shared item purchases. Customers in the lowest degree tier (approximately the bottom 10%) had degree values closer to 123, reflecting relatively fewer shared purchasing connections, though still maintaining substantial connectivity within the network.
+
+Despite this range, overall variation in degree centrality was limited. Most customers were connected to well over 150 other customers on average, which aligns with the network’s low overall density of 4.0% and reflects the large size of the network combined with widespread overlap in purchasing behavior. Consistent with this pattern, the network’s degree centralization value was 0.0, indicating that connectivity is not concentrated around a small number of dominant nodes but is instead broadly distributed across customers.
+
+Several factors may contribute to the observed (albeit modest) differences in degree centrality. Customers who purchase more frequently are likely to have higher degree centrality due to increased opportunities for shared purchases with others. Additionally, customers who purchase popular or commonly purchased items are more likely to be connected to a larger number of other customers. In contrast, customers who purchase infrequently or select more niche items may exhibit relatively lower degree centrality, placing them in comparatively more peripheral positions within the network.
+
+Because the customer co-purchase network is undirected, analyses of in-degree and out-degree centrality are not applicable.
