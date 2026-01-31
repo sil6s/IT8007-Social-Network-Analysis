@@ -210,3 +210,9 @@ The next steps in the workflow will include:
 These steps will be documented in a separate analysis log.
 
 ---
+
+Density = 0.040
+No. of Ties = 607,532
+Avg Degree = 155.777
+Std Dev = 0.196
+
